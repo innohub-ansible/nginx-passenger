@@ -1,2 +1,2 @@
 ---
-# defaults file for .
+passenger_max_pool_size: 6
