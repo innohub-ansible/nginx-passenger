@@ -1,2 +1,4 @@
 ---
-passenger_max_pool_size: 6
+nginx_settings:
+  - {name: 'passenger_max_pool_size', value: '6'}
+  - {name: 'client_max_body_size', value: '300m'}
